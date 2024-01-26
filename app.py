@@ -1,6 +1,5 @@
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
-
 from chat_pdf.ui.query_input import QueryInput
 from chat_pdf.ui.results_display import ResultsDisplay
 from chat_pdf.ui.interaction_buttons import InteractionButtons
@@ -18,6 +17,3 @@ class ChatPdfUI(BoxLayout):
 class ChatPdfApp(App):
     def build(self):
         return ChatPdfUI()
-
-if __name__ == '__main__':
-    ChatPdfApp().run()
